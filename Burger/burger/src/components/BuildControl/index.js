@@ -1,7 +1,7 @@
 import React from "react";
-
+import css from "./style.module.css";
 const BuildControl = (props) => (
-  <div>
+  <div className={css.BuildControl}>
     <div>{props.orts}</div>
     <button>Nemeh</button>
     <button>Hasakh</button>
